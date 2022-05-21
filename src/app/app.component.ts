@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { alunos } from './alunos';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ap-ferramenta-des-web';
+  title = 'Atividade Prática de Des. Web';
+  lista_alunos = alunos; // aqui importamos a partir do arquivo alunos.ts os dados da lista, isso sera usado no html do Angular
 }
